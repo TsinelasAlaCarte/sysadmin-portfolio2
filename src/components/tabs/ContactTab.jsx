@@ -9,9 +9,9 @@ export default function ContactTab() {
   const handleCommand = (e) => {
     e.preventDefault();
     const cmd = inputVal.trim().toLowerCase();
-    
+
     let response = '';
-    switch(cmd) {
+    switch (cmd) {
       case 'email':
       case 'mail':
         response = 'Opening default mail client to contact@ejeisalgado.com...';
@@ -59,7 +59,7 @@ export default function ContactTab() {
             <div className="text-green mb-4">
               Welcome to the contact terminal. Type a command to connect or click the links below.
             </div>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               <a href="mailto:contact@ejeisalgado.com" className="flex flex-col items-center justify-center p-4 rounded bg-mantle border border-surface0 hover:border-surface2 hover:bg-surface0 transition-all group">
                 <Mail className="w-8 h-8 text-yellow mb-2 group-hover:scale-110 transition-transform" />

@@ -20,7 +20,7 @@ export default function AboutTab() {
           <div className="text-mauve font-pixel text-xs sm:text-sm md:text-base whitespace-pre leading-none drop-shadow-[0_0_5px_rgba(202,158,230,0.5)]">
             {asciiLogo}
           </div>
-          
+
           <div className="flex-1 space-y-4">
             <div className="flex items-center space-x-2">
               <span className="text-green font-bold">sysad@ejei</span>
@@ -28,31 +28,23 @@ export default function AboutTab() {
               <span className="text-text">$</span>
               <span className="text-yellow ml-2">neofetch</span>
             </div>
-            
+
             <div className="space-y-2 mt-4 text-sm sm:text-base">
               <div className="flex">
-                <span className="text-blue font-bold w-32">OS:</span>
-                <span className="text-text">Aesthetic Arch Linux x86_64</span>
+                <span className="text-blue font-bold w-32">Section:</span>
+                <span className="text-text">BSIT 3-02</span>
               </div>
               <div className="flex">
                 <span className="text-blue font-bold w-32">Host:</span>
                 <span className="text-text">Ejei Salgado</span>
               </div>
               <div className="flex">
-                <span className="text-blue font-bold w-32">Kernel:</span>
-                <span className="text-text">IT Student & Systems Administrator</span>
+                <span className="text-blue font-bold w-32">Subject:</span>
+                <span className="text-text">ITEN12C - Systems Administration</span>
               </div>
               <div className="flex">
                 <span className="text-blue font-bold w-32">Uptime:</span>
-                <span className="text-text">Since 2004</span>
-              </div>
-              <div className="flex">
-                <span className="text-blue font-bold w-32">Packages:</span>
-                <span className="text-text">Linux, Docker, Python, Bash</span>
-              </div>
-              <div className="flex">
-                <span className="text-blue font-bold w-32">Shell:</span>
-                <span className="text-text">zsh 5.9</span>
+                <span className="text-text">Since 2005</span>
               </div>
               <div className="flex">
                 <span className="text-blue font-bold w-32">Location:</span>
@@ -75,7 +67,7 @@ export default function AboutTab() {
               <div className="w-4 h-4 sm:w-6 sm:h-6 bg-teal rounded-sm"></div>
               <div className="w-4 h-4 sm:w-6 sm:h-6 bg-text rounded-sm"></div>
             </div>
-            
+
             <div className="flex space-x-2 mt-2">
               <div className="w-4 h-4 sm:w-6 sm:h-6 bg-surface2 rounded-sm"></div>
               <div className="w-4 h-4 sm:w-6 sm:h-6 bg-flamingo rounded-sm"></div>

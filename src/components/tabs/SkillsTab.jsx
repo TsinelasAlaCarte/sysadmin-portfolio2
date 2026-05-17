@@ -11,7 +11,7 @@ export default function SkillsTab() {
       </div>
       <div className="w-full bg-crust rounded-full h-1.5 border border-surface0 overflow-hidden">
         <div className={`h-1.5 rounded-full ${bgColorClass} relative overflow-hidden`} style={{ width: `${percentage}%` }}>
-           <div className="absolute inset-0 bg-white/20 w-full animate-[shimmer_2s_infinite]"></div>
+          <div className="absolute inset-0 bg-white/20 w-full animate-[shimmer_2s_infinite]"></div>
         </div>
       </div>
     </div>
@@ -24,13 +24,13 @@ export default function SkillsTab() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mb-6 pb-6 border-b border-surface0">
           <div>
             <div className="flex items-center text-sm mb-2 text-subtext1">
-               <Activity className="w-4 h-4 mr-2 text-green" /> CPU[|||||||||||||||||95.0%]
+              <Activity className="w-4 h-4 mr-2 text-green" /> CPU[|||||||||||||||||95.0%]
             </div>
             <div className="flex items-center text-sm mb-2 text-subtext1">
-               <Database className="w-4 h-4 mr-2 text-blue" /> Mem[||||||||||      48.2%]
+              <Database className="w-4 h-4 mr-2 text-blue" /> Mem[||||||||||      48.2%]
             </div>
             <div className="flex items-center text-sm text-subtext1">
-               <Network className="w-4 h-4 mr-2 text-peach" /> Swp[|               1.2%]
+              <Network className="w-4 h-4 mr-2 text-peach" /> Swp[|               1.2%]
             </div>
           </div>
           <div className="text-xs text-subtext0 space-y-1">
@@ -87,22 +87,22 @@ export default function SkillsTab() {
               </h3>
               <div className="space-y-3">
                 <a href="#" className="block p-3 rounded-lg border border-surface0 bg-crust/50 hover:bg-surface0 hover:border-surface1 transition-colors group">
-                   <div className="flex items-center justify-between">
-                     <span className="font-bold text-text group-hover:text-blue transition-colors">CCNA: Introduction to Networks</span>
-                     <span className="text-xs text-subtext0 bg-surface1 px-2 py-1 rounded">Cisco NetAcad</span>
-                   </div>
+                  <div className="flex items-center justify-between">
+                    <span className="font-bold text-text group-hover:text-blue transition-colors">CCNA: Introduction to Networks</span>
+                    <span className="text-xs text-subtext0 bg-surface1 px-2 py-1 rounded">Cisco NetAcad</span>
+                  </div>
                 </a>
                 <a href="#" className="block p-3 rounded-lg border border-surface0 bg-crust/50 hover:bg-surface0 hover:border-surface1 transition-colors group">
-                   <div className="flex items-center justify-between">
-                     <span className="font-bold text-text group-hover:text-blue transition-colors">Networking Basics</span>
-                     <span className="text-xs text-subtext0 bg-surface1 px-2 py-1 rounded">Cisco NetAcad</span>
-                   </div>
+                  <div className="flex items-center justify-between">
+                    <span className="font-bold text-text group-hover:text-blue transition-colors">Networking Basics</span>
+                    <span className="text-xs text-subtext0 bg-surface1 px-2 py-1 rounded">Cisco NetAcad</span>
+                  </div>
                 </a>
                 <a href="#" className="block p-3 rounded-lg border border-surface0 bg-crust/50 hover:bg-surface0 hover:border-surface1 transition-colors group">
-                   <div className="flex items-center justify-between">
-                     <span className="font-bold text-text group-hover:text-blue transition-colors">Python Essentials 2</span>
-                     <span className="text-xs text-subtext0 bg-surface1 px-2 py-1 rounded">Cisco NetAcad</span>
-                   </div>
+                  <div className="flex items-center justify-between">
+                    <span className="font-bold text-text group-hover:text-blue transition-colors">Python Essentials 2</span>
+                    <span className="text-xs text-subtext0 bg-surface1 px-2 py-1 rounded">Cisco NetAcad</span>
+                  </div>
                 </a>
               </div>
               <p className="text-xs text-subtext0 mt-2 italic">* Click to view verified Credly badges.</p>

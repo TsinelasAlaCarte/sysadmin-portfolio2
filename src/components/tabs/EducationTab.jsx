@@ -30,7 +30,7 @@ export default function EducationTab() {
           <span className="text-text">$</span>
           <span className="text-yellow ml-2">cat /var/log/education.log</span>
         </div>
-        
+
         <div className="space-y-8 mt-6 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-surface2 before:to-transparent">
           {eduData.map((item, index) => (
             <div key={index} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
@@ -38,7 +38,7 @@ export default function EducationTab() {
               <div className="flex items-center justify-center w-10 h-10 rounded-full border border-surface2 bg-crust shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-colors duration-300 group-hover:border-mauve group-hover:shadow-[0_0_10px_rgba(202,158,230,0.5)]">
                 <div className={`w-3 h-3 rounded-full ${item.status === 'Completed' ? 'bg-green' : 'bg-yellow animate-pulse'}`}></div>
               </div>
-              
+
               {/* Content */}
               <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded-xl border border-surface0 bg-mantle/50 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-surface2 hover:shadow-lg hover:shadow-crust/50">
                 <div className="flex flex-col space-y-1">
@@ -56,12 +56,12 @@ export default function EducationTab() {
               </div>
             </div>
           ))}
-          
+
           {/* End marker */}
           <div className="relative flex items-center justify-center group is-active">
-             <div className="flex items-center justify-center w-10 h-10 rounded-full border border-surface2 bg-crust shadow z-10">
-                <span className="text-xs text-subtext0">EOF</span>
-             </div>
+            <div className="flex items-center justify-center w-10 h-10 rounded-full border border-surface2 bg-crust shadow z-10">
+              <span className="text-xs text-subtext0">EOF</span>
+            </div>
           </div>
         </div>
       </WindowCard>
