@@ -34,10 +34,7 @@ export default function SkillsTab() {
             </div>
           </div>
           <div className="text-xs text-subtext0 space-y-1">
-            <div>Tasks: 142, 105 thr, 126 kthr; 1 running</div>
-            <div>Load average: 1.04 1.15 1.08</div>
-            <div>Uptime: 20 years, 354 days</div>
-            <div>Mode: God Mode Activated</div>
+            <div>Uptime: 185 865 hours</div>
           </div>
         </div>
 
@@ -51,7 +48,6 @@ export default function SkillsTab() {
               <ul className="text-sm space-y-2 text-subtext1 list-disc list-inside">
                 <li><strong className="text-text">Environments:</strong> Linux (Deep KDE Plasma customization), Bare-metal dual-boot deployments, Virtual Machine provisioning</li>
                 <li><strong className="text-text">DevOps & Automation:</strong> Docker, Bash scripting, YAML configuration, Git/GitHub, Custom Dataview querying</li>
-                <li><strong className="text-text">Networking:</strong> Standard routing, IP management, Troubleshooting</li>
               </ul>
             </section>
 
@@ -62,18 +58,18 @@ export default function SkillsTab() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <h4 className="text-xs font-bold text-peach mb-2 uppercase tracking-widest">Languages</h4>
-                  {renderSkillBar('Python', 85, 'text-blue', 'bg-blue')}
-                  {renderSkillBar('JavaScript', 80, 'text-yellow', 'bg-yellow')}
-                  {renderSkillBar('C#', 70, 'text-green', 'bg-green')}
-                  {renderSkillBar('PHP', 65, 'text-mauve', 'bg-mauve')}
-                  {renderSkillBar('Dart / Kotlin', 75, 'text-teal', 'bg-teal')}
+                  {renderSkillBar('Python', 20, 'text-blue', 'bg-blue')}
+                  {renderSkillBar('JavaScript', 50, 'text-yellow', 'bg-yellow')}
+                  {renderSkillBar('C#', 20, 'text-green', 'bg-green')}
+                  {renderSkillBar('PHP', 50, 'text-mauve', 'bg-mauve')}
+                  {renderSkillBar('Dart / Kotlin', 20, 'text-teal', 'bg-teal')}
                 </div>
                 <div>
                   <h4 className="text-xs font-bold text-peach mb-2 uppercase tracking-widest">Databases & Markup</h4>
-                  {renderSkillBar('SQL / SQLite', 80, 'text-blue', 'bg-blue')}
-                  {renderSkillBar('Firebase', 75, 'text-yellow', 'bg-yellow')}
-                  {renderSkillBar('HTML / CSS', 90, 'text-pink', 'bg-pink')}
-                  {renderSkillBar('Markdown', 95, 'text-mauve', 'bg-mauve')}
+                  {renderSkillBar('SQL / SQLite', 30, 'text-blue', 'bg-blue')}
+                  {renderSkillBar('Firebase', 50, 'text-yellow', 'bg-yellow')}
+                  {renderSkillBar('HTML / CSS', 75, 'text-pink', 'bg-pink')}
+                  {renderSkillBar('Markdown', 80, 'text-mauve', 'bg-mauve')}
                 </div>
               </div>
             </section>
